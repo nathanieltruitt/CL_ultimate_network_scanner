@@ -9,6 +9,8 @@ class CLI
     puts 'Welcome to the ultimate network scanner, well it\'s not really because it only scans one host and port at a time'
     puts "Please type in a command!\n"
 
+    puts "Usage: scan [HOST] [PORT]"
+
     until user_input.include? 'exit'
       print 'ultimate_network_scanner>'
       user_input = gets.chomp
